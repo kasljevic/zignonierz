@@ -1,0 +1,37 @@
+graph TD
+    A[🎛 Initialize System] --> B[🔲 Create Button Frame]
+    B --> C[🔧 Set Default Button Attributes]
+    C --> D[⏰ Initialize Metronome<br><i>(Periodically checks every 5s)</i>]
+    D --> E[🔍 Run <b>smart_find_target</b> Function<br><i>(Find the best target)</i>]
+
+    E --> F{👥 Is the player in a group?}
+    F -->|✅ Yes| G[👀 Iterate through Group Members<br><i>(Checking each member)</i>]
+    F -->|❌ No| H[🐾 Check Pet Fallback<br><i>(If no group, check for pets)</i>]
+
+    G --> I{🛡️ Is this a tank?}
+    I -->|✅ Yes| J{📊 Does the tank meet the criteria?<br><i>(i.e., has certain buffs, is alive)</i>}
+    I -->|❌ No| G[🔄 Continue iterating group members]
+    
+    J -->|✅ Yes| K[🎯 Set this tank as the target]
+    J -->|❌ No| G[🔄 Continue iterating group members]
+
+    H --> L{🐾 Is a pet available?<br><i>(Check if the player has a valid pet)</i>}
+    L -->|✅ Yes| M[🐾 Set the pet as the target]
+    L -->|❌ No| N[🔄 Use Default Target<br><i>(Fallback to a predefined unit)</i>]
+
+    K --> O[🎛 Update Button Attributes<br><i>(Target set, update button for use)</i>]
+    M --> O
+    N --> O
+
+    P[🎛 End <b>smart_find_target</b> Function] --> Q[🔄 Handle Events<br><i>(e.g., group changes, combat status)</i>]
+    Q --> R{🔄 Is an update required?<br><i>(Changes in group, pets, etc.)</i>}
+    R -->|✅ Yes| S{⚔️ Is the player in combat?}
+    S -->|❌ No| E[🔄 Re-run <b>smart_find_target</b> Immediately]
+    S -->|✅ Yes| T[⏸ Wait until combat ends<br><i>(Delay update until after combat)</i>]
+    R -->|❌ No| U[⏹ No action required]
+
+    T --> E[🔄 Re-run <b>smart_find_target</b> After combat]
+
+    V[⏰ Metronome] --> W{⚠️ Is the update flag set?}
+    W -->|✅ Yes| E[🔄 Re-run <b>smart_find_target</b>]
+    W -->|❌ No| V[⏰ Wait for the next 5s check]

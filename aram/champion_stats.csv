@@ -1,0 +1,269 @@
+champion_id,win_rate,games_played,damage_dealt,damage_taken,other_changes
+34,51.06,151009,+5%,,
+104,49.7,240890,,,
+32,52.86,199935,,,
+74,53.7,172763,-10%,+10%,
+37,53.09,171090,,+10%,Shielding done reduced by 15%.Healing done reduced by 15%.Ability haste reduced by 20.
+9,53.25,168369,-5%,+5%,
+893,47.78,146833,,,Ability haste increased by 10.
+45,52.67,327379,-10%,+10%,"Event Horizon
+
+Cooldown increased to 23 / 21.5 / 20 / 18.5 / 17 seconds."
+876,52.03,150669,-5%,+5%,"Swirlseed
+
+Cooldown increased to 18 seconds."
+23,49.52,105178,+10%,-10%,Healing done increased by 35%.
+19,50.23,94492,+5%,-5%,Healing done increased by 5%.
+99,53.17,351334,-15%,+10%,Shielding done reduced by 20%.
+200,44.68,56518,+5%,,"Death in Lavender
+
+Bel'Veth gains 2 stacks from nearby siege minion deaths.
+ Endless Banquet
+
+Enhanced Void Corals spawn from nearby turrets being destroyed."
+121,44.48,163632,+10%,-10%,Healing done increased by 20%.Tenacity increased by 20%.
+96,52.41,178823,-12%,+10%,
+240,51.47,27597,+5%,,
+420,53.4,112230,-5%,+5%,Healing done reduced by 20%.
+203,47.66,116639,+10%,-10%,Total attack speed  increased by 2.5%.
+36,50.54,140962,-10%,+5%,Healing done reduced by 10%.
+43,49.9,265593,,,
+82,50.74,203080,-5%,+5%,
+62,54.2,165368,,,
+110,52.54,335887,-2%,+5%,
+429,48.64,101512,+10%,-10%,
+427,49.17,88582,-10%,,Shielding done reduced by 20%.
+20,45.48,144933,+10%,-10%,Shielding done increased by 20%.Healing done increased by 10%.Tenacity increased by 20%.
+166,46.74,116680,+5%,-5%,"Going Rogue
+
+Scoundrel duration reduced to 10 seconds."
+57,51.19,198306,-20%,+10%,Healing done reduced by 10%.
+497,49.52,83888,,-5%,
+75,52.37,138095,-10%,+5%,"Siphoning Strike
+
+Per-kill stacks increased to 6.
+Per-large-kill stacks increased to 24."
+13,50.78,161391,+5%,-5%,
+113,50.4,96776,,,
+875,51.95,172529,-10%,+10%,Shielding done reduced by 10%.Healing done reduced by 10%.
+555,43.33,259371,+10%,-5%,Tenacity increased by 20%.
+2,50.69,52111,+5%,,
+901,48.77,268544,,+5%,Ability haste reduced by 10.
+12,51.51,127582,-5%,+5%,Healing done reduced by 20%.
+84,42.3,180253,+5%,-10%,Energy regeneration increased by 20%.Tenacity increased by 20%.
+895,48.06,82879,-5%,,Healing done increased by 0%.
+221,49.17,148549,+10%,,"Burst Fire
+
+Zeri will start the game with one point already ranked in Burst Fire!, allowing her to allocate the other two to her other abilities."
+245,48.35,164255,+10%,,Tenacity increased by 20%.
+30,49.12,198701,-10%,+5%,"Death Defied
+
+Duration reduced to 5 seconds."
+267,51.98,177011,-5%,+5%,Healing done reduced by 10%.
+115,53.93,213728,-13%,+20%,"Ability haste reduced by 20.
+ Short Fuse
+
+Damage to structures reduced to 150%.
+ Satchel Charge
+
+Tower execute threshold reduced to 12.5 / 15 / 17.5 / 20 / 22.5% of turret's maximum health."
+18,47.41,254068,+5%,-5%,
+498,50.29,261228,+5%,,Total attack speed  increased by 3%.
+11,49.55,169877,,-3%,
+89,52.22,186826,-10%,,
+126,47.99,223365,+5%,,
+14,52.05,108810,-10%,+10%,"Ability haste reduced by 10.
+ Glory in Death
+
+Life steal reduced to 50%.
+ Soul Furnace
+
+ Health per lesser unit kill changed to 2.
+ Health per greater unit kill changed to 8.
+Shield health ratio changed to 6 / 8 / 10 / 12 / 14% maximum health."
+68,49.6,133385,,,
+42,51.32,171423,,-10%,Ability haste increased by 20.
+711,51.72,178443,-5%,,
+266,48.7,181019,+5%,,
+8,52.04,149950,-5%,,Healing done reduced by 10%.
+246,40.68,93180,+15%,-10%,"Tenacity increased by 20%.
+ Terrashape
+
+Targeting a Health Relic on  Howling Abyss grants the River Element."
+134,50.11,166245,+5%,,Ability haste increased by 15.
+223,50.71,129572,,+5%,
+76,49.72,310522,+10%,,
+268,48.14,144651,,-5%,"Ability haste increased by 20.Total attack speed  increased by 2.5%.
+ Arise!
+
+Azir will start the game with one point already ranked in Arise!, allowing him to allocate the other two to his other abilities."
+4,51.92,252996,,,
+114,47.62,81089,,-5%,
+69,50.17,96597,,,
+72,48.0,57084,,+5%,
+202,52.2,365165,-10%,+5%,
+38,46.99,75643,,-5%,
+6,50.65,77771,,+5%,
+80,52.18,219525,+5%,,
+523,50.6,123485,,,
+201,51.42,139742,,,
+31,53.27,248698,,+10%,
+10,48.47,206308,-5%,+10%,
+154,47.98,93184,,-4%,Healing done increased by 10%.
+141,46.34,82013,,,"Healing done reduced by 20%.Tenacity increased by 20%.
+ The Darkin Scythe
+
+Transformation no longer restores full health and mana."
+254,51.47,146497,+5%,-5%,
+887,49.28,73525,,,
+17,51.59,256520,-10%,+10%,"Ability haste reduced by 20.
+ Noxious Trap
+
+Deals 66% damage to minions (50% total).
+Maximum charges reduced to 2 / 3 / 4."
+63,52.62,321833,-5%,+10%,Ability haste reduced by 10.
+516,50.24,103062,-10%,+5%,"Living Forge
+
+New Effect: Forging an item puts Living Forge on a 120-second cooldown."
+28,40.72,60118,+10%,-10%,Tenacity increased by 20%.
+25,53.3,338325,-5%,+10%,
+150,51.91,86535,+5%,-5%,Total attack speed  increased by 2.5%.
+85,50.96,173874,+5%,,Energy regeneration increased by 20%.
+127,53.68,131355,-5%,+5%,
+91,44.78,103351,+5%,-5%,Tenacity increased by 20%.
+77,52.11,90436,,,
+24,50.51,155425,+5%,-3%,
+48,51.19,71839,,+5%,Healing done increased by 0%.
+112,54.03,135205,-5%,+5%,
+61,49.92,173627,,,
+60,51.19,58892,+5%,-10%,Tenacity increased by 20%.
+54,47.44,292472,,,
+107,43.28,65083,+5%,-8%,Tenacity increased by 20%.
+22,47.63,329890,+5%,,"Total attack speed  increased by 3%.
+ Volley
+
+Cooldown increased to 18 / 17.5 / 17 / 16.5 / 16 seconds."
+133,48.2,169242,+10%,-10%,Tenacity increased by 20%.Total attack speed  increased by 2.5%.
+39,48.54,124865,,,Ability haste increased by 20.
+79,48.87,132325,,-5%,
+64,48.02,241756,+5%,-5%,Shielding done increased by 20%.Healing done increased by 10%.Energy regeneration increased by 20%.
+102,46.9,102898,,-5%,"Fury of the Dragonborn
+
+Alternate Innate: Shyvana gains 1 bonus armor, 1 bonus magic resistance, and 0.05 bonus Fury regeneration whenever a siege or a canon minion dies within 1400 units range of her, or when she is healed by a health relic's area of effect on the enemy's side of the map.
+She will not gain bonuses if she is dead, even if in range."
+27,52.85,103317,-10%,+5%,
+142,48.81,139718,+10%,-5%,
+950,45.95,61530,+10%,,Ability haste increased by 10.
+412,50.64,293780,,+5%,"Damnation
+
+Each collected soul counts as 2 from 1."
+41,46.71,158062,+5%,,"Parrrley
+
+New Effect: Passively gains 1  Silver Serpent per second."
+7,42.66,224542,+10%,-10%,Tenacity increased by 10%.Ability haste increased by 20.
+222,49.77,346932,-10%,+5%,
+15,52.53,246575,-10%,+5%,"Boomerang Blade
+
+Cooldown increased to 14 / 13 / 12 / 11 / 10 seconds."
+122,52.13,192463,+5%,,
+111,50.89,238275,-5%,+10%,
+40,51.95,188060,-5%,+5%,"Shielding done reduced by 5%.Healing done reduced by 10%.
+ Howling Gale
+
+Cooldown increased to 16 seconds."
+518,50.93,172876,,,
+234,49.76,130514,+5%,,
+29,49.36,260686,,-5%,
+350,51.64,151227,+5%,,
+143,53.71,169496,-10%,+5%,Ability haste reduced by 10.
+145,48.09,296143,,-5%,Total attack speed  increased by 2.5%.
+120,46.59,51150,+5%,-10%,Healing done increased by 20%.Ability haste increased by 10.
+78,51.18,109267,,,
+21,50.74,366894,-10%,+10%,
+119,47.69,200562,+5%,-5%,
+777,48.48,190520,+5%,-3%,Total attack speed  increased by 2.5%.
+136,50.08,173228,,,"Singularity
+
+Cooldown increased to 14 seconds."
+432,43.62,107362,+15%,-15%,"Healing done increased by 20%.
+ Traveler's Call
+
+Chime spawn rate increased to every 30 seconds instead of 50 seconds (initial spawn unchanged)."
+238,44.33,221853,+5%,-5%,Energy regeneration increased by 20%.Tenacity increased by 20%.
+236,48.64,315859,+5%,-5%,Tenacity increased by 20%.Ability haste increased by 10.
+92,50.13,117249,+5%,-8%,Shielding done increased by 0%.
+53,49.51,280872,,,
+233,48.01,66950,+5%,,Healing done increased by 20%.
+59,49.88,174631,,,
+147,50.08,194206,-15%,+20%,Shielding done reduced by 20%.Healing done reduced by 20%.Ability haste reduced by 20.
+910,50.19,183175,,,"Subject: Disaster
+
+ Devastating Fire
+Deals 80% damage to minions.
+ Severing Bolt
+Dealt 80% damage to minions.
+ Molten Fissure
+Deals 80% damage to minions.
+ Subject: Serenity
+
+ Stirring Lights
+Deals 80% damage to minions.
+ Subject: Torment
+
+ Grim Visage
+Deals 80% damage to minions.
+ Gaze of the Abyss
+Deals 80% damage to minions.
+ Crushing Maw
+Deals 80% damage to minions."
+56,45.01,80030,+10%,-10%,Healing done increased by 20%.
+161,53.0,278582,-5%,+5%,
+101,53.64,249886,-5%,+5%,
+888,50.34,108283,-5%,+5%,Shielding done reduced by 20%.
+235,48.75,267047,-6%,+5%,
+5,52.88,76515,-5%,,
+44,51.82,54883,,+10%,
+83,55.73,47800,,,"Shepherd of Souls
+
+Deaths required for a grave changed to 5 at all levels."
+897,47.71,71696,+5%,,
+3,53.66,110419,-10%,+5%,
+106,52.36,134195,,,
+58,50.0,128455,,,Healing done increased by 5%.
+131,50.56,126337,+5%,-5%,
+163,52.03,115496,,,
+117,49.59,196748,,,Shielding done increased by 0%.
+517,46.49,198573,+5%,,
+55,43.33,181864,,,Tenacity increased by 20%.Ability haste increased by 10.
+164,48.6,57846,+5%,-5%,Shielding done increased by 10%.Healing done increased by 20%.Ability haste increased by 10.
+1,53.51,180828,-5%,+5%,Shielding done reduced by 10%.
+157,47.76,214813,,,Total attack speed  increased by 2.5%.
+35,49.36,187686,+5%,,"Jack in the Box
+
+Limited to 6 Boxes active."
+90,52.04,153271,-10%,+10%,"Call of the Void
+
+Deals 80% damage to minions (60% total).
+ Void Swarm
+
+Deals 80% damage to minions (60% total).
+ Nether Grasp
+
+Null Zone deals 80% damage to minions (60% total)."
+421,51.36,26343,+5%,-10%,
+51,51.84,365370,,+5%,
+67,47.23,260796,+5%,-5%,
+86,50.45,209168,,-5%,"Courage
+
+Bonus resistances on-kill changed to 0.5. Number of enemy kills needed to reach the maximum amount changed to 60."
+360,46.52,199821,-5%,+5%,
+103,51.57,314259,,,
+16,47.12,182227,,,
+50,51.09,151705,-10%,+15%,Healing done reduced by 20%.
+33,51.59,80317,,,
+902,53.89,133574,,,Shielding done reduced by 10%.Healing done reduced by 5%.Ability haste reduced by 10.
+105,46.36,176279,+5%,-5%,Tenacity increased by 20%.
+81,50.71,363762,,,
+526,51.43,63531,-5%,,Shielding done reduced by 10%.Healing done reduced by 10%.
+98,52.68,106019,-5%,+5%,
+26,47.72,159220,+5%,-5%,Ability haste increased by 10.

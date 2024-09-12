@@ -1,0 +1,169 @@
+champion_id,champion_name,champion_title,key
+34,Anivia,the Cryophoenix,Anivia
+104,Graves,the Outlaw,Graves
+32,Amumu,the Sad Mummy,Amumu
+74,Heimerdinger,the Revered Inventor,Heimerdinger
+37,Sona,Maven of the Strings,Sona
+9,Fiddlesticks,the Ancient Fear,Fiddlesticks
+893,Aurora,the Witch Between Worlds,Aurora
+45,Veigar,the Tiny Master of Evil,Veigar
+876,Lillia,the Bashful Bloom,Lillia
+23,Tryndamere,the Barbarian King,Tryndamere
+19,Warwick,the Uncaged Wrath of Zaun,Warwick
+99,Lux,the Lady of Luminosity,Lux
+200,Bel'Veth,the Empress of the Void,Belveth
+121,Kha'Zix,the Voidreaver,Khazix
+96,Kog'Maw,the Mouth of the Abyss,KogMaw
+240,Kled,the Cantankerous Cavalier,Kled
+420,Illaoi,the Kraken Priestess,Illaoi
+203,Kindred,The Eternal Hunters,Kindred
+36,Dr. Mundo,the Madman of Zaun,DrMundo
+43,Karma,the Enlightened One,Karma
+82,Mordekaiser,the Iron Revenant,Mordekaiser
+62,Wukong,the Monkey King,MonkeyKing
+110,Varus,the Arrow of Retribution,Varus
+429,Kalista,the Spear of Vengeance,Kalista
+427,Ivern,the Green Father,Ivern
+20,Nunu & Willump,the Boy and His Yeti,Nunu
+166,Akshan,the Rogue Sentinel,Akshan
+57,Maokai,the Twisted Treant,Maokai
+497,Rakan,The Charmer,Rakan
+75,Nasus,the Curator of the Sands,Nasus
+13,Ryze,the Rune Mage,Ryze
+113,Sejuani,Fury of the North,Sejuani
+875,Sett,the Boss,Sett
+555,Pyke,the Bloodharbor Ripper,Pyke
+2,Olaf,the Berserker,Olaf
+901,Smolder,the Fiery Fledgling,Smolder
+12,Alistar,the Minotaur,Alistar
+84,Akali,the Rogue Assassin,Akali
+895,Nilah,the Joy Unbound,Nilah
+221,Zeri,The Spark of Zaun,Zeri
+245,Ekko,the Boy Who Shattered Time,Ekko
+30,Karthus,the Deathsinger,Karthus
+267,Nami,the Tidecaller,Nami
+115,Ziggs,the Hexplosives Expert,Ziggs
+18,Tristana,the Yordle Gunner,Tristana
+498,Xayah,the Rebel,Xayah
+11,Master Yi,the Wuju Bladesman,MasterYi
+89,Leona,the Radiant Dawn,Leona
+126,Jayce,the Defender of Tomorrow,Jayce
+14,Sion,The Undead Juggernaut,Sion
+68,Rumble,the Mechanized Menace,Rumble
+42,Corki,the Daring Bombardier,Corki
+711,Vex,the Gloomist,Vex
+266,Aatrox,the Darkin Blade,Aatrox
+8,Vladimir,the Crimson Reaper,Vladimir
+246,Qiyana,Empress of the Elements,Qiyana
+134,Syndra,the Dark Sovereign,Syndra
+223,Tahm Kench,The River King,TahmKench
+76,Nidalee,the Bestial Huntress,Nidalee
+268,Azir,the Emperor of the Sands,Azir
+4,Twisted Fate,the Card Master,TwistedFate
+114,Fiora,the Grand Duelist,Fiora
+69,Cassiopeia,the Serpent's Embrace,Cassiopeia
+72,Skarner,the Primordial Sovereign,Skarner
+202,Jhin,the Virtuoso,Jhin
+38,Kassadin,the Void Walker,Kassadin
+6,Urgot,the Dreadnought,Urgot
+80,Pantheon,the Unbreakable Spear,Pantheon
+523,Aphelios,the Weapon of the Faithful,Aphelios
+201,Braum,the Heart of the Freljord,Braum
+31,Cho'Gath,the Terror of the Void,Chogath
+10,Kayle,the Righteous,Kayle
+154,Zac,the Secret Weapon,Zac
+141,Kayn,the Shadow Reaper,Kayn
+254,Vi,the Piltover Enforcer,Vi
+887,Gwen,The Hallowed Seamstress,Gwen
+17,Teemo,the Swift Scout,Teemo
+63,Brand,the Burning Vengeance,Brand
+516,Ornn,The Fire below the Mountain,Ornn
+28,Evelynn,Agony's Embrace,Evelynn
+25,Morgana,the Fallen,Morgana
+150,Gnar,the Missing Link,Gnar
+85,Kennen,the Heart of the Tempest,Kennen
+127,Lissandra,the Ice Witch,Lissandra
+91,Talon,the Blade's Shadow,Talon
+77,Udyr,the Spirit Walker,Udyr
+24,Jax,Grandmaster at Arms,Jax
+48,Trundle,the Troll King,Trundle
+112,Viktor,the Machine Herald,Viktor
+61,Orianna,the Lady of Clockwork,Orianna
+60,Elise,the Spider Queen,Elise
+54,Malphite,Shard of the Monolith,Malphite
+107,Rengar,the Pridestalker,Rengar
+22,Ashe,the Frost Archer,Ashe
+133,Quinn,Demacia's Wings,Quinn
+39,Irelia,the Blade Dancer,Irelia
+79,Gragas,the Rabble Rouser,Gragas
+64,Lee Sin,the Blind Monk,LeeSin
+102,Shyvana,the Half-Dragon,Shyvana
+27,Singed,the Mad Chemist,Singed
+142,Zoe,the Aspect of Twilight,Zoe
+950,Naafiri,the Hound of a Hundred Bites,Naafiri
+412,Thresh,the Chain Warden,Thresh
+41,Gangplank,the Saltwater Scourge,Gangplank
+7,LeBlanc,the Deceiver,Leblanc
+222,Jinx,the Loose Cannon,Jinx
+15,Sivir,the Battle Mistress,Sivir
+122,Darius,the Hand of Noxus,Darius
+111,Nautilus,the Titan of the Depths,Nautilus
+40,Janna,the Storm's Fury,Janna
+518,Neeko,the Curious Chameleon,Neeko
+234,Viego,The Ruined King,Viego
+29,Twitch,the Plague Rat,Twitch
+350,Yuumi,the Magical Cat,Yuumi
+143,Zyra,Rise of the Thorns,Zyra
+145,Kai'Sa,Daughter of the Void,Kaisa
+120,Hecarim,the Shadow of War,Hecarim
+78,Poppy,Keeper of the Hammer,Poppy
+21,Miss Fortune,the Bounty Hunter,MissFortune
+119,Draven,the Glorious Executioner,Draven
+777,Yone,the Unforgotten,Yone
+136,Aurelion Sol,The Star Forger,AurelionSol
+432,Bard,the Wandering Caretaker,Bard
+238,Zed,the Master of Shadows,Zed
+236,Lucian,the Purifier,Lucian
+92,Riven,the Exile,Riven
+53,Blitzcrank,the Great Steam Golem,Blitzcrank
+233,Briar,the Restrained Hunger,Briar
+59,Jarvan IV,the Exemplar of Demacia,JarvanIV
+147,Seraphine,the Starry-Eyed Songstress,Seraphine
+910,Hwei,the Visionary,Hwei
+56,Nocturne,the Eternal Nightmare,Nocturne
+161,Vel'Koz,the Eye of the Void,Velkoz
+101,Xerath,the Magus Ascendant,Xerath
+888,Renata Glasc,the Chem-Baroness,Renata
+235,Senna,the Redeemer,Senna
+5,Xin Zhao,the Seneschal of Demacia,XinZhao
+44,Taric,the Shield of Valoran,Taric
+83,Yorick,Shepherd of Souls,Yorick
+897,K'Sante,the Pride of Nazumah,KSante
+3,Galio,the Colossus,Galio
+106,Volibear,the Relentless Storm,Volibear
+58,Renekton,the Butcher of the Sands,Renekton
+131,Diana,Scorn of the Moon,Diana
+163,Taliyah,the Stoneweaver,Taliyah
+117,Lulu,the Fae Sorceress,Lulu
+517,Sylas,the Unshackled,Sylas
+55,Katarina,the Sinister Blade,Katarina
+164,Camille,the Steel Shadow,Camille
+1,Annie,the Dark Child,Annie
+157,Yasuo,the Unforgiven,Yasuo
+35,Shaco,the Demon Jester,Shaco
+90,Malzahar,the Prophet of the Void,Malzahar
+421,Rek'Sai,the Void Burrower,RekSai
+51,Caitlyn,the Sheriff of Piltover,Caitlyn
+67,Vayne,the Night Hunter,Vayne
+86,Garen,The Might of Demacia,Garen
+360,Samira,the Desert Rose,Samira
+103,Ahri,the Nine-Tailed Fox,Ahri
+16,Soraka,the Starchild,Soraka
+50,Swain,the Noxian Grand General,Swain
+33,Rammus,the Armordillo,Rammus
+902,Milio,The Gentle Flame,Milio
+105,Fizz,the Tidal Trickster,Fizz
+81,Ezreal,the Prodigal Explorer,Ezreal
+526,Rell,the Iron Maiden,Rell
+98,Shen,the Eye of Twilight,Shen
+26,Zilean,the Chronokeeper,Zilean
