@@ -1,13 +1,233 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBNYWNpbnRvc2ggSEQgdjEuOTAg4Baq2gAAAD9JREFUKFNjZGBgYGBgUggUGBoa/N8BgwERnLx9uZkBlJDAyMjKAkYEHETVzkKACGcEAMON0IxtZG6XAAAAAElFTkSuQmCC" type="image/png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Artifact Viewer</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathing Guide</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #d4d4d4;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: all 1s ease-in-out;
+        }
+        .heart {
+            font-size: 10rem;
+            color: red;
+            transition: transform 1s ease-in-out;
+        }
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .controls button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .controls .start-btn {
+            background-color: #d64545;
+            color: white;
+        }
+        .controls .reset-btn {
+            background-color: #444;
+            color: white;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .input-group input {
+            width: 50px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Heart-Based Breathing Guide</h1>
+        <button id="showTips" class="toggle-tips">Show Tips</button>
+        <div id="tips" class="tips" style="display:none; margin: 20px; text-align: center;">
+            <p>Your body's stress responses are rooted in ancient survival mechanisms. Understanding that your brain tends to shut down under stress can help you proactively manage pressure.</p>
+            <h4>Top 3 Tips for Effective Breathing:</h4>
+            <ol>
+                <li><strong>Rhythm:</strong> Maintain a steady, consistent breathing pattern to calm your nervous system.</li>
+                <li><strong>Smoothness:</strong> Focus on smooth, uninterrupted breaths to promote relaxation and reduce stress.</li>
+                <li><strong>From the Heart:</strong> Imagine breathing through your heart to enhance positive emotions and energy flow.</li>
+            </ol>
+            <p>These techniques help regulate your body's stress response, improve focus, and cultivate a sense of inner calm and balance.</p>
+        </div>
+        <div id="breathingCircle" class="circle"></div>
+        <div id="heart" class="heart">❤️</div>
+        <h3 id="reminder">Breathe from the heart</h3>
+        <div class="controls">
+            <button id="startPauseBtn" class="start-btn">Start</button>
+            <button id="resetBtn" class="reset-btn">Reset</button>
+        </div>
+        <div class="input-group">
+            <label for="duration">Duration (s):</label>
+            <input type="number" id="duration" value="5" min="1">
+        </div>
+        <div class="input-group">
+            <label for="maxCycles">Max Cycles:</label>
+            <input type="number" id="maxCycles" value="10" min="1">
+        </div>
+        <p id="cycleInfo">Duration: 5s | Cycles: 0 / 10</p>
+    </div>
+    <script>
+        let duration = 5;
+        let cycleCount = 0;
+        let maxCycles = 10;
+        let isRunning = false;
+        let currentPhase = 0;
+        let timeLeft = duration;
+        let scale = 1;
+        let circleColor = 'rgba(255, 255, 255, 0.2)';
+        let circleSize = 200;
+        let timerInterval;
+        let scaleInterval;
+
+        const phases = [
+            { name: 'Inhale', duration: duration },
+            { name: 'Exhale', duration: duration }
+        ];
+
+        function updateDOM() {
+            document.getElementById('cycleInfo').innerText = `Duration: ${duration}s | Cycles: ${cycleCount} / ${maxCycles}`;
+            document.getElementById('breathingCircle').style.width = `${circleSize}px`;
+            document.getElementById('breathingCircle').style.height = `${circleSize}px`;
+            document.getElementById('breathingCircle').style.backgroundColor = circleColor;
+            document.getElementById('heart').style.transform = `scale(${scale})`;
+            document.getElementById('reminder').innerText = currentPhase === 0 ? 'Breathe through your heart' : 'Release and feel the rhythm';
+        }
+
+        function startBreathing() {
+            if (isRunning) return;
+            isRunning = true;
+            document.getElementById('startPauseBtn').innerText = 'Pause';
+            runBreathingCycle();
+        }
+
+        function runBreathingCycle() {
+            clearInterval(timerInterval);
+            clearInterval(scaleInterval);
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                if (timeLeft === 0) {
+                    currentPhase = (currentPhase + 1) % phases.length;
+                    if (currentPhase === 0) {
+                        cycleCount++;
+                        if (cycleCount >= maxCycles) {
+                            resetBreathing();
+                            return;
+                        }
+                    }
+                    timeLeft = phases[currentPhase].duration;
+                    updateScale();
+                }
+                updateDOM();
+            }, 1000);
+
+            updateScale();
+        }
+
+        function updateScale() {
+            clearInterval(scaleInterval);
+            const animationDuration = duration * 1000 * 0.6;
+            const fps = 60;
+            const totalFrames = (animationDuration / 1000) * fps;
+
+            scaleInterval = setInterval(() => {
+                const phaseProgress = (duration - timeLeft) / duration;
+                const targetScale = phases[currentPhase].name === 'Inhale' ? 1.5 : 1;
+                const initialScale = phases[currentPhase].name === 'Inhale' ? 1 : 1.5;
+                scale = initialScale + (targetScale - initialScale) * phaseProgress;
+                circleSize = 200 + scale * 200;
+                circleColor = phases[currentPhase].name === 'Inhale'
+                    ? `rgba(0, 255, 0, ${0.2 + phaseProgress * 0.2})`
+                    : `rgba(255, 0, 0, ${0.4 - phaseProgress * 0.2})`;
+                updateDOM();
+            }, animationDuration / totalFrames);
+        }
+
+        function pauseBreathing() {
+            isRunning = false;
+            clearInterval(timerInterval);
+            clearInterval(scaleInterval);
+            document.getElementById('startPauseBtn').innerText = 'Start';
+        }
+
+        function toggleStartPause() {
+            isRunning ? pauseBreathing() : startBreathing();
+        }
+
+        function resetBreathing() {
+            pauseBreathing();
+            cycleCount = 0;
+            timeLeft = duration;
+            currentPhase = 0;
+            scale = 1;
+            circleSize = 200;
+            circleColor = 'rgba(255, 255, 255, 0.2)';
+            updateDOM();
+        }
+
+        document.getElementById('startPauseBtn').addEventListener('click', toggleStartPause);
+        document.getElementById('resetBtn').addEventListener('click', resetBreathing);
+        document.getElementById('showTips').addEventListener('click', () => {
+            const tips = document.getElementById('tips');
+            const button = document.getElementById('showTips');
+            if (tips.style.display === 'none') {
+                tips.style.display = 'block';
+                button.innerText = 'Hide Tips';
+            } else {
+                tips.style.display = 'none';
+                button.innerText = 'Show Tips';
+            }
+        });
+
+        document.getElementById('duration').addEventListener('input', (e) => {
+            const value = parseInt(e.target.value);
+            if (!isNaN(value) && value >= 1) {
+                duration = value;
+                timeLeft = duration;
+                phases.forEach(phase => phase.duration = duration);
+                updateDOM();
+            }
+        });
+
+        document.getElementById('maxCycles').addEventListener('input', (e) => {
+            const value = parseInt(e.target.value);
+            if (!isNaN(value) && value >= 1) {
+                maxCycles = value;
+                updateDOM();
+            }
+        });
+
+        updateDOM();
+    </script>
+</body>
 </html>
